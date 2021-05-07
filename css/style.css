@@ -1479,7 +1479,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/Images/ubuhle8.jpg);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
@@ -2537,13 +2537,18 @@ h3 {
 }
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
-.breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+.breadcam_about {
+  background-image: url(../img/Images/ubuhle742.jpg);
 }
-
+.breadcam_donate {
+  background-image: url(../img/Images/ubuhle15.jpg);
+}
+.breadcam_contact {
+  background-image: url(../img/Images/ubuhle19.jpg);
+}
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
-.breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
+.breadcam_gallery {
+  background-image: url(../img/Images/ubuhle20.jpg);
 }
 
 /* line 7, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
@@ -2963,13 +2968,18 @@ h3 {
 }
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
-.video_bg_1 {
-  background-image: url(../img/banner/man.png);
+.video_index {
+  background-image: url(../img/Images/ubuhle17.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-
+.video_about {
+  background-image: url(../img/Images/ubuhle18.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 /* line 7, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
 .latest_activites_area {
   background: rgba(60, 199, 143, 0.06);
