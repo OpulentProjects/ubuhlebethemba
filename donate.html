@@ -118,8 +118,10 @@
         <div class="section-top-border">
           <div class="row">
             <div class="col-lg-8 col-md-8">
-              <h3 class="mb-30">Form Element</h3>
-              <form action="#">
+              <h3 class="mb-30">Donation Page</h3>
+
+              <form action="https://formspree.io/f/xdoygevp"
+              method="POST">
                 <div class="mt-10">
                   <input type="text" name="first_name" placeholder="First Name"
                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
@@ -132,7 +134,7 @@
                 </div>
 
                 <div class="mt-10">
-                  <input type="email" name="EMAIL" placeholder="Email address"
+                  <input type="email" name="email" placeholder="Email address"
                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" required
                     class="single-input">
                 </div>
@@ -148,35 +150,31 @@
                     onblur="this.placeholder = 'Comment'" required></textarea>
                 </div>
                 <div class="button-group-area">
-                  <a href="#" class="genric-btn danger">Default</a>
+                  <!-- <a href="#" class="genric-btn danger">Send</a> -->
+                  <button type="submit" class="genric-btn danger">Send</button>
                 </div>
               </form>
 
             </div>
             <div class="col-lg-3 col-md-4 mt-sm-30">
               <div class="single-element-widget mt-30">
-                <h3 class="mb-30">Type of Donation</h3>
+                <h3 class="mb-30">Account Details</h3>
 
                 <div class="switch-wrap d-flex justify-content-between">
-                  <p>Love Offering</p>
-                  <div class="primary-radio">
-                    <input type="checkbox" id="primary-radio" checked>
-                    <label for="primary-radio"></label>
-                  </div>
+                  <p>Bank : Nedbank Limited</p>
                 </div>
                 <div class="switch-wrap d-flex justify-content-between">
-                  <p>Building Expansion</p>
-                  <div class="primary-radio">
-                    <input type="checkbox" id="primary-radio" checked>
-                    <label for="primary-radio"></label>
-                  </div>
+                  <p>Account Number : 1379049067 </p>
                 </div>
                 <div class="switch-wrap d-flex justify-content-between">
-                  <p>One Time Donation</p>
-                  <div class="primary-radio">
-                    <input type="checkbox" id="primary-radio" checked>
-                    <label for="primary-radio"></label>
-                  </div>
+                  <p>Account Type : Classic</p>
+
+                </div>
+                <div class="switch-wrap d-flex justify-content-between">
+                  <p>Branch Code : 1379049067</p>
+                </div>
+                <div class="switch-wrap d-flex justify-content-between">
+                  <p>Swift Code : NEDSZAJJ</p>
                 </div>
               </div>
             </div>
